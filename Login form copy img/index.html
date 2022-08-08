@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Animated Login Form | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  </head>
+  <body>
+    <div>
+      <div id="card">
+          <img style="width:150px;margin-left:30%;margin-top: 10%" src="https://thumbs.dreamstime.com/b/user-icon-trendy-flat-style-isolated-grey-background-user-symbol-user-icon-trendy-flat-style-isolated-grey-background-123663211.jpg">
+          <div class="p-5">
+              <h5>Ismingiz</h5> <h4>....</h4><hr>
+              <h5>Username</h5><h4>....</h4><hr>
+              <h5>Parolingiz</h5> <h4>....</h4><hr>
+          </div>
+        
+      </div>
+      <div class="center">
+        <div class="container">
+           <div class="row d-flex">
+             <div class="col-md-3"></div>
+              <div class="col-md-3">
+                <img class="men p-2 m-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThP1AyqfMU8DRLQOrbDj9lY-lULTkaBNZ8bXTtDKUhN1vEQJ2KMqrOC1Sb7tIV-XOmEq8&usqp=CAU" alt="">
+              </div>
+              <div class="col-md-3">
+                <img class="women p-2 m-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtLn_IJtyVZrNvrIfJ9JToySQoDPz_ZVp5Fg&usqp=CAU" alt="">
+              </div>
+              <div class="col-md-3"></div>
+           </div>
+        </div>
+        <h1>Login</h1>
+        <form method="post">
+          <div class="txt_field">
+            <input id="img" type="text" required>
+            <span></span>
+            <label>Url</label>
+          </div>
+          <div class="txt_field">
+            <input id="name" type="text" required>
+            <span></span>
+            <label>Name</label>
+          </div>
+          <div class="txt_field">
+            <input id="username" type="text" required>
+            <span></span>
+            <label>Username</label>
+          </div>
+          <div class="txt_field">
+            <input id="pass" type="password" required>
+            <span></span>
+            <label>Password</label>
+          </div>
+          <!-- <div class="pass">Forgot Password?</div> -->
+  
+          <p id="errorText" style="display: none;color: #ed5353;"></p>
+          
+          <input type="submit" id="btn" value="Login">
+          
+          <div class="signup_link">
+            Not a member? <a href="#">Signup</a>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </body>
+  <script src="script.js"></script>
+</html>
